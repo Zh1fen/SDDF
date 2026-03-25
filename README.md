@@ -23,7 +23,7 @@ Under the open-set evaluation setting, **SDDF achieves a State-of-the-Art AP of 
 ### 1. Comparison with Open-Vocabulary Object Detectors
 We compare SDDF with classical open-vocabulary object detectors on the OVCOD-D dataset under an open-set setting. All models are fine-tuned on the base classes and evaluated on the union of base and novel classes.
 
-| Method | Backbone | Params | Pre-train | AP | AP$_{50}$ | AP$_{75}$ | AP$_{m}$ | AP$_{l}$ |
+| Method | Backbone | Params | Pre-train | AP | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>m</sub> | AP<sub>l</sub> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | GLIP-T | Swin-T | 232M | O365, GoldG | 39.6 | 47.8 | 45.2 | - | - |
 | GLIPv2-T | Swin-T | 232M | O365, GoldG | 42.6 | 53.4 | 46.7 | - | - |
@@ -43,7 +43,7 @@ We compare SDDF with classical open-vocabulary object detectors on the OVCOD-D d
 ### 2. Comparison with SOTA COD Methods
 To bridge the gap between segmentation-based COD and bounding-box detection, we also compare SDDF with State-of-the-Art Camouflaged Object Detection methods:
 
-| Method | Backbone | AP | AP$_{50}$ | AP$_{75}$ |
+| Method | Backbone | AP | AP<sub>50</sub> | AP<sub>75</sub> |
 | :--- | :---: | :---: | :---: | :---: |
 | SINet-V2 | ResNet-50 | 40.2 | 69.3 | 39.4 |
 | FSPNet | Swin-T | 47.9 | 76.2 | 49.4 |
