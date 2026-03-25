@@ -20,8 +20,28 @@ Under the open-set evaluation setting, **SDDF achieves a State-of-the-Art AP of 
 
 ## 🏆 Main Results
 
-### Comparison with SOTA COD Methods
-We compare SDDF with other State-of-the-Art Camouflaged Object Detection methods on the OVCOD-D dataset. Our model demonstrates superior localization capabilities:
+### 1. Comparison with Open-Vocabulary Object Detectors
+We compare SDDF with classical open-vocabulary object detectors on the OVCOD-D dataset under an open-set setting. All models are fine-tuned on the base classes and evaluated on the union of base and novel classes.
+
+| Method | Backbone | Params | Pre-train | AP | AP$_{50}$ | AP$_{75}$ | AP$_{m}$ | AP$_{l}$ |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| GLIP-T | Swin-T | 232M | O365, GoldG | 39.6 | 47.8 | 45.2 | - | - |
+| GLIPv2-T | Swin-T | 232M | O365, GoldG | 42.6 | 53.4 | 46.7 | - | - |
+| Grounding DINO-T | Swin-T | 172M | O365, GoldG | 34.8 | 43.9 | 37.7 | - | - |
+| YOLO-World-S | YOLOv8-S | 77M | O365, GoldG | 38.5 | 58.0 | 41.4 | 18.7 | 41.1 |
+| YOLO-World-M | YOLOv8-M | 92M | O365, GoldG | 43.3 | 62.3 | 46.5 | 24.9 | 46.1 |
+| YOLO-World-L | YOLOv8-L | 110M | O365, GoldG | 45.7 | 63.2 | 48.9 | 22.9 | 48.4 |
+| YOLOE-S | YOLOv8-S | 78M | O365, GoldG | 38.7 | 46.0 | 40.8 | - | - |
+| YOLOE-M | YOLOv8-M | 94M | O365, GoldG | 39.9 | 47.7 | 42.7 | - | - |
+| DOSOD-S | YOLOv8-S | 75M | O365, GoldG | 44.8 | 67.4 | 46.8 | 22.4 | 47.2 |
+| DOSOD-M | YOLOv8-M | 90M | O365, GoldG | 51.8 | 73.8 | 55.6 | 27.9 | 54.5 |
+| DOSOD-L | YOLOv8-L | 108M | O365, GoldG | 53.4 | 73.1 | 56.2 | 26.4 | 56.3 |
+| **SDDF-S (Ours)** | **YOLOv8-S** | **76M** | **O365, GoldG** | **48.1** | **70.7** | **50.3** | **25.9** | **50.7** |
+| **SDDF-M (Ours)** | **YOLOv8-M** | **91M** | **O365, GoldG** | **54.3** | **75.1** | **57.5** | **30.3** | **57.0** |
+| **SDDF-L (Ours)** | **YOLOv8-L** | **109M** | **O365, GoldG** | **56.4** | **76.4** | **60.7** | **34.4** | **59.0** |
+
+### 2. Comparison with SOTA COD Methods
+To bridge the gap between segmentation-based COD and bounding-box detection, we also compare SDDF with State-of-the-Art Camouflaged Object Detection methods:
 
 | Method | Backbone | AP | AP$_{50}$ | AP$_{75}$ |
 | :--- | :---: | :---: | :---: | :---: |
