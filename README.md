@@ -14,7 +14,7 @@ Open-vocabulary object detection (OVOD) aims to detect known and unknown objects
 *Figure: Construction pipeline of OVCOD-D dataset. We extend COD10K-D, NC4K-D, and cleaned CAMO-D with YOLO-style detection labels and an additional red imported fire ant nest subset, then reorganize them into 40 base and 47 novel classes. Qwen3-VL-Plus generates fine-grained image descriptions from which we derive a semantic prompt library for open-vocabulary camouflaged object detection.*
 
 ## ⚙️ Architecture
-![SDDF Framework](assets/framework_new_01.png)
+![SDDF Framework](assets/framework_01.png)
 *Figure: Overall architecture of the proposed specificity-driven open-vocabulary camouflaged object detector.*
 
 ## 🏆 Main Results
