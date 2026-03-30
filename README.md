@@ -1,10 +1,10 @@
 # SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection (CVPR 2026)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Paper-ArXiv-red.svg)](#) 
+[![Paper](https://img.shields.io/badge/Paper-ArXiv-red.svg)](http://arxiv.org/abs/2603.26109)
 [![Venue: CVPR 2026](https://img.shields.io/badge/Venue-CVPR_2026-blue.svg)](#)
 
-> **🚧 Update (2026):** Our paper has been accepted by CVPR 2026! **The code and dataset (OVCOD-D) are coming soon. Please stay tuned!**
+> **🚧 Update (2026):** Our paper has been accepted by CVPR 2026! [**[ArXiv Paper]**](http://arxiv.org/abs/2603.26109) **The code and dataset (OVCOD-D) are coming soon. Please stay tuned!**
 
 ## 📖 Introduction
 Open-vocabulary object detection (OVOD) aims to detect known and unknown objects in the open world. However, camouflaged objects pose significant challenges due to high visual similarity with the background. We propose **SDDF**, which leverages specificity-aware sub-descriptions and a dynamic focusing mechanism to enhance the detector's discrimination capability.
