@@ -47,3 +47,15 @@ Comparison with State-of-the-Art Camouflaged Object Detection methods.
 
 ## 📧 Contact
 If you have any questions, please feel free to contact us or open an issue.
+
+## 📝 Citation
+If you find our work helpful for your research, please consider citing:
+
+```bibtex
+@article{liang2026sddf,
+  title={SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection},
+  author={Liang, Jiaming and Zhan, Yifeng and Liu, Chunlin and Zheng, Weihua and Peng, Bingye env, Liang, Qiwei and Cai, Boyang and Mai, Xiaochun and Nie, Qiang},
+  journal={arXiv preprint arXiv:2603.26109},
+  year={2026}
+}
+```
