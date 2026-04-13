@@ -3,13 +3,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Paper](https://img.shields.io/badge/Paper-ArXiv-red.svg)](http://arxiv.org/abs/2603.26109)
 [![Venue: CVPR 2026](https://img.shields.io/badge/Venue-CVPR_2026-blue.svg)](#)
+[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow.svg)](https://huggingface.co/datasets/Zhan1fen/OVCOD-D)
 
-> **🚧 Update (2026):** Our paper has been accepted by CVPR 2026! [**[ArXiv Paper]**](http://arxiv.org/abs/2603.26109) **The code and dataset (OVCOD-D) are coming soon. Please stay tuned!**
+> **🚧 Update:**
+> - **[2026/04/13]:** The OVCOD-D benchmark dataset is released on [Hugging Face](https://huggingface.co/datasets/Zhan1fen/OVCOD-D)!
+> - **[2026/03/25]:** Repository created. Our paper has been accepted by CVPR 2026! [**[ArXiv Paper]**](http://arxiv.org/abs/2603.26109)
+> - **[Coming Soon]:** The training and inference code will be available soon. Stay tuned!
 
 ## 📖 Introduction
 Open-vocabulary object detection (OVOD) aims to detect known and unknown objects in the open world. However, camouflaged objects pose significant challenges due to high visual similarity with the background. We propose **SDDF**, which leverages specificity-aware sub-descriptions and a dynamic focusing mechanism to enhance the detector's discrimination capability.
 
 ## 📊 OVCOD-D Benchmark
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-orange)](https://huggingface.co/datasets/Zhan1fen/OVCOD-D)
+
 ![Benchmark Pipeline](assets/benchmark_new_01.png)
 *Figure: Construction pipeline of OVCOD-D dataset. We extend COD10K-D, NC4K-D, and cleaned CAMO-D with YOLO-style detection labels and an additional red imported fire ant nest subset, then reorganize them into 40 base and 47 novel classes. Qwen3-VL-Plus generates fine-grained image descriptions from which we derive a semantic prompt library for open-vocabulary camouflaged object detection.*
 
