@@ -4,3 +4,5 @@ __pycache__/
 data/
 logs/
 .DS_Store
+AGENTS.md
+.codex

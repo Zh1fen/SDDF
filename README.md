@@ -4,9 +4,10 @@
 [![Paper](https://img.shields.io/badge/Paper-ArXiv-red.svg)](http://arxiv.org/abs/2603.26109)
 [![Venue: CVPR 2026](https://img.shields.io/badge/Venue-CVPR_2026-blue.svg)](#)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow.svg)](https://huggingface.co/datasets/Zhan1fen/OVCOD-D)
+[![Dataset](https://img.shields.io/badge/Dataset-ModelScope-green.svg)](https://www.modelscope.cn/datasets/yifengzhan/OVCOD-D)
 
 > **🚧 Update:**
-> - **[2026/04/13]:** The OVCOD-D benchmark dataset is released on [Hugging Face](https://huggingface.co/datasets/Zhan1fen/OVCOD-D)!
+> - **[2026/04/13]:** The OVCOD-D benchmark dataset is released on [Hugging Face](https://huggingface.co/datasets/Zhan1fen/OVCOD-D) and [ModelScope](https://www.modelscope.cn/datasets/yifengzhan/OVCOD-D)!
 > - **[2026/03/25]:** Repository created. Our paper has been accepted by CVPR 2026! [**[ArXiv Paper]**](http://arxiv.org/abs/2603.26109)
 > - **[Coming Soon]:** The training and inference code will be available soon. Stay tuned!
 
