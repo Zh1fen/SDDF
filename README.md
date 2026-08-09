@@ -1,3 +1,5 @@
+
+
 # SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection (CVPR 2026)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -61,7 +63,7 @@ If you find our work helpful for your research, please consider citing:
 ```bibtex
 @article{liang2026sddf,
   title={SDDF: Specificity-Driven Dynamic Focusing for Open-Vocabulary Camouflaged Object Detection},
-  author={Liang, Jiaming and Zhan, Yifeng and Liu, Chunlin and Zheng, Weihua and Peng, Bingye env, Liang, Qiwei and Cai, Boyang and Mai, Xiaochun and Nie, Qiang},
+  author={Liang, Jiaming and Zhan, Yifeng and Liu, Chunlin and Zheng, Weihua and Peng, Bingye, and Liang, Qiwei and Cai, Boyang and Mai, Xiaochun and Nie, Qiang},
   journal={arXiv preprint arXiv:2603.26109},
   year={2026}
 }
